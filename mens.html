@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEN</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <style>
+         #top{
+      
+      width: 90%;
+      height: 200px;
+      margin: auto;
+  }
+  nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 20px;
+  width: 10%;
+  height: 27%;
+  color: WHITE;
+  background-color: black;
+  font-weight: bolder;
+}
+  .new {
+  /* border: solid 1px rgb(0, 0, 0); */
+  width: 79%;
+  margin: 30px;
+  margin: auto;
+  margin-bottom: 20PX;
+  padding: 30px;
+  height: 87px;
+  display: flex;
+  justify-content: flex-end;
+}
+#top>div {
+  /* border: solid 1px rgb(0, 0, 0); */
+     /* border: solid 1px rgb(0, 0, 0); */
+     width: 95%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.bhwana{
+display: flex;
+}
+.bhwana {
+  width: 21%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+div#logo {
+
+  font-size: 38px;
+  font-weight: 900;
+  LETTER-SPACING: 0PX;
+  font-family: sans-serif;
+}
+
+input[type="search"] {
+  padding: 10px;
+  width: 90%;
+}
+.bhwana1{
+width: 70%;
+}
+button {
+  /* margin: 40px; */
+  margin-left: 30px;
+  padding: 20px;
+  width: 10%;
+  height: 27%;
+  color: WHITE;
+  background-color: black;
+  font-weight: bolder;
+}
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1f1f1f;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px auto;
+            max-width: 90%;
+            padding: 0 25px;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        .rating-wrapper,
+        .price-wrapper {
+            margin-bottom: 10px;
+        }
+
+        .box {
+            /* height: 400px; */
+            width: calc(25% - 50px);
+            margin: 0px 25px 25px;
+            /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+        }
+
+        .top {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: right;
+        }
+
+        img {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+
+        .top>p {
+            margin-bottom: 0;
+        }
+
+        .top>img {
+            height: 10px;
+            width: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+
+
+        .name {
+            text-align: center;
+            color: #808080;
+            font-weight: 600;
+            margin-top: 5px;
+            text-transform: uppercase;
+        }
+
+        .box>p {
+            text-align: center;
+        }
+
+        .fa-star {
+            color: #f5be18;
+        }
+
+        .bottom-block {
+            border: 1px solid #000;
+            display: flex;
+            width: 100%;
+            margin-top: auto;
+            /* transition: all 0.3s; */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .box:hover .bottom-block {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .box:hover {
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            ;
+        }
+
+        .bottom-block span {
+            padding: 0 15px;
+            /* margin: auto; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bottom-block button {
+            background-color: #000;
+            color: #fff;
+            outline: none;
+            width: 100%;
+            border-color: transparent;
+            padding: 10px;
+            min-height: 40px;
+        }
+
+        .main-img {
+            height: 260px;
+            object-fit: contain;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+       
+
+
+        .para {
+
+            text-align: center;
+            font-size: 32px;
+            font-weight: 300;
+            color: #212529;
+            padding: 20px 0px;
+            background-color: #f8f9fa;
+
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        body img,
+        button,
+        i:hover {
+            cursor: pointer;
+        }
+
+        /* *{
+            background-color: #f8f9fa;
+        } */
+        #container {
+            display: flex;
+            width: 100%;
+            height: 70px;
+            justify-content: space-between;
+            align-items: center;
+
+            background-color: #f8f9fa;
+
+        }
+
+        #container>div {
+            /* border: red solid 1px; */
+
+            display: flex;
+
+        }
+
+        #container>#inputdiv {
+            width: 50%;
+
+        }
+
+        #inputdiv>#searchBar {
+            border-radius: 30px 0px 0px 30px;
+            width: 80%;
+            padding: 15px 0px 15px 20px;
+            border: 0px;
+
+
+        }
+
+        #inputdiv>button {
+            background-color: black;
+            color: white;
+            width: 20%;
+            border-radius: 0px 30px 30px 0px;
+            border: 0px;
+            font-size: 15px;
+        }
+
+        #loginimg {
+            height: 28px;
+
+            margin-top: 10px;
+        }
+
+        #icon>img,
+        i {
+            height: 15px;
+            margin: 5px
+        }
+
+        #icon>i {
+            color: #495057
+        }
+
+        #icon {
+            margin-right: -50px !important
+        }
+
+        /* dropdoun menu */
+
+    
+            
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 50px auto;
+            max-width: 90%;
+            padding: 0 25px;
+        }
+
+        /* last black page */
+
+        .cursor>p>u>a {
+            text-decoration: none;
+        }
+
+        div#div1 {
+    display: none;
+}
+    </style>
+</head>
+
+<body>
+   <!-- header -->
+   <div id="top">
+    <div class="new">
+<nav><ul>CN-US8</ul>
+<ul>Help </ul>
+<ul><a href="login.html">Sign in </a></ul></nav>
+<button><a href="signup.html">Join </a></button>
+    </div>
+    <div>
+        <div id="logo"> <a href="index.HTML">LYST</a></div>
+<div class="bhwana"><p> <a href="mens.html"> MEN</a></p>
+<p><a href="women.html">WOMEN</a></p></div>
+<div class="bhwana1"> <input type="search"> SEARCH </div>
+    </div>
+</div>
+<hr>
+<div id="main">
+    <div id="div1">
+        <img src="https://cdna.lystit.com/cms/ENG_header_XL_9f9e2af236_615828663f.jpg" /> 
+    </div>
+    <div id="div2">
+
+        </div>
+    </div>
+    <div class="container"></div>
+    <!-- last black page  -->
+  
+
+</body>
+
+</html>
+
+<script>
+    var Eyes = [
+        {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/cettire/23ce10a5/fendi-Multi-Allover-Logo-Single-Breasted-Coat.jpeg",
+                brand: "Nike",
+                name: "Allover Logo Single Breasted Coat - Black",
+            price:  499,
+            rating: "4.5(37)",
+             strike: null,
+        },
+        {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/lvr/fe5d5ac9/nike-black-Parka-A-Capuche-fog-Nrg.jpeg",
+            name: "F.o.g Nrg Hooded Parka - Black",
+            price:  499,
+            rating: "4.7(10)",
+             strike: null,
+        },
+         {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/cettire/6d2a4775/fendi-Beige-Ff-Belted-Trench-Coat.jpeg",
+            name: "Ff Belted Trench Coat - Natural",
+            price:  249,
+            rating: "4.8(63)",
+             strike: null,
+        }, 
+        
+        {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/24sevres/429e0f93/fendi-bleu-Wool-Coat.jpeg",
+            name: "Ff Motif Single-breasted Coat - Black",
+            price:  799,
+            rating: "4.8(45)",
+            strike:  999,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/stefaniamode/772f165a/off-white-co-virgil-abloh-black-Logo-patches-Varsity-Jacket.jpeg",
+            name: "Off White Coats Black - Multicolor",
+            price:  299,
+            rating: "4.7(12)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/brownsfashion/040f4810/fendi-Black-X-Noel-Fielding-Logo-Jacquard-Reversible-Shearling-Coat.jpeg",
+            name: "X Noel Fielding Logo Jacquard Reversible Shearling Coat - Black",
+            price:  499,
+            rating: "4.7(41)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/cettire/bd8aca37/canada-goose-Blue-Hybridge-Zipped-Hooded-Down-Jacket.jpeg",
+            name: "Coats Blue - Blue",
+            price:  499,
+            rating: "4.8(27)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/24sevres/3e8e007a/fendi-bleu-Blue-Wool-Coat.jpeg",
+            name: "Duffel Coat - Blue",
+            price:  599,
+            rating: "4.8(7)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/mytheresa/6911f134/tom-ford-black-Quilted-Down-Coat.jpeg",
+            name: "Quilted Down Coat - Black",
+            price:  499,
+            rating: "4.8(19)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/eraldo/b2ec69f4/fendi-Black-X-Noel-Fielding-Logo-lettering-Coat.jpeg",
+            name: "X Noel Fielding Logo-lettering Coat - Black",
+            price:  599,
+            rating: "4.6(55)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/alexandermcqueen/83312c4f/alexander-mcqueen-Bone-Zip-detail-tailored-coat.jpeg",
+            name: "White Zip Detail Tailored Coat - White",
+            price:  499,
+            rating: "4.9(29)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/mclabels/a36a5789/fendi-BLUE-Other-Materials-Coat.jpeg",
+            name: "Other Materials Coat - Blue",
+            price:  699,
+            rating: "4.9(27)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/moss/72669a2c/moss-london--Slim-Fit-Oatmeal-Herringbone-Overcoat.jpeg",
+            name: "Slim Fit Oatmeal Herringbone Overcoat - Multicolor",
+            price:  699,
+            rating: "4.9(19)",
+             strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/vitkac/03d27dce/fendi-GREY-Wool-Coat.jpeg",
+            name: "Wool Coat - Gray",
+            price:  999,
+            rating: "4.7(14)",
+            strike: null,
+        }, {
+            image_url:
+                "https://cdna.lystit.com/200/250/tr/photos/mytheresa/0c84c1c9/tom-ford-black-Double-breasted-Cashmere-Coat.jpeg",
+            name: "Double-breasted Cashmere Coat - Black",
+            price:  499,
+            rating: "4.6(19)",
+            strike: null,
+        },
+    ];
+
+    localStorage.setItem("cart", JSON.stringify(Eyes));
+
+    Eyes.map(function (elem) {
+
+        var box = document.createElement("div");
+        var top = document.createElement("div");
+        var bottom = document.createElement("div");
+        var rating_wrapper = document.createElement("div");
+        var price_wrapper = document.createElement("div");
+
+        var shade = document.createElement("p");
+        shade.textContent = elem.shade;
+
+        var img_shade = document.createElement("img");
+        img_shade.src = elem.shade_image;
+
+        var img = document.createElement("img");
+        img.src = elem.image_url;
+        img.classList.add("main-img");
+
+        var name = document.createElement("p");
+        name.textContent = elem.name;
+
+        var price = document.createElement("span");
+        price.innerText = `Rs. ${elem.price}`;
+        //price.innerText = "Rs." + elem.price;
+
+        var strike = document.createElement("s");
+        strike.innerText = elem.strike ? `Rs. ${elem.strike}` : '';
+
+        var rating = document.createElement("span");
+        rating.innerText = elem.rating;
+
+        var star_icon = document.createElement("span");
+        star_icon.innerHTML += '<i class="fa fa-star" aria-hidden="true"></i>'
+
+        var heart_icon = document.createElement("span");
+        heart_icon.innerHTML += '<i class="fa-regular fa-heart"></i>'
+        heart_icon.addEventListener("click", function () {
+            wishList(elem);
+        });
+
+        name.classList.add("name");
+        box.classList.add("box");
+        top.classList.add("top");
+        bottom.classList.add("bottom-block");
+        rating_wrapper.classList.add("rating-wrapper");
+        price_wrapper.classList.add("price-wrapper");
+
+        var btn = document.createElement("button");
+        btn.innerText = "ADD TO CART";
+        btn.addEventListener("click", function () {
+            addToCart(elem);
+        });
+
+        top.append(shade, img_shade);
+        price_wrapper.append(strike, price)
+        rating_wrapper.append(star_icon, rating);
+        bottom.append(heart_icon, btn);
+        box.append(img, name, price_wrapper, rating_wrapper, bottom);
+
+        document.querySelector(".container").append(box);
+    });
+
+    var cartArray = JSON.parse(localStorage.getItem("cartItem")) || [];
+    function addToCart(elem) {
+        cartArray.push(elem);
+        alert("item added to cart")
+
+        localStorage.setItem("cartItem", JSON.stringify(cartArray))
+    }
+
+    var cartwish= JSON.parse(localStorage.getItem("wishlistItem")) || [];
+     function wishList(elem){
+        cartwish.push(elem);
+        alert("item added to wishlist")
+
+        localStorage.setItem("wishlistItem",JSON.stringify(cartwish))
+     }
+</script>

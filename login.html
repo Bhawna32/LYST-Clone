@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* header */
+        #top{
+      
+      width: 90%;
+      height: 200px;
+      margin: auto;
+  }
+  nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 20px;
+  width: 10%;
+  height: 27%;
+  color: WHITE;
+  background-color: black;
+  font-weight: bolder;
+}
+  .new {
+  /* border: solid 1px rgb(0, 0, 0); */
+  width: 79%;
+  margin: 30px;
+  margin: auto;
+  margin-bottom: 20PX;
+  padding: 30px;
+  height: 87px;
+  display: flex;
+  justify-content: flex-end;
+}
+#top>div {
+  /* border: solid 1px rgb(0, 0, 0); */
+  width: 95%;
+  margin: auto;
+  height: 42px;
+  display: flex;
+  justify-content: flex-end;
+}
+.bhwana{
+display: flex;
+}
+.bhwana {
+  width: 21%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+div#logo {
+
+  font-size: 38px;
+  font-weight: 900;
+  LETTER-SPACING: 0PX;
+  font-family: sans-serif;
+}
+
+input[type="search"] {
+  padding: 10px;
+  width: 90%;
+}
+.bhwana1{
+width: 70%;
+}
+button {
+  /* margin: 40px; */
+  margin-left: 30px;
+  padding: 20px;
+  width: 10%;
+  height: 27%;
+  color: WHITE;
+  background-color: black;
+  font-weight: bolder;
+}
+        #main{
+            /* border: solid blue 1px; */
+            padding: 10px;
+            width: 60%;
+            height: 500px;
+            margin: auto;
+            display: flex;
+        }
+        #login{
+            /* border: solid yellow 1px; */
+            width: 50%;
+            margin-right: 25px;
+
+        }
+        buttons {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 11;
+    font-size: 15px;
+    font-weight: 600;
+    width: 45%;
+    text-align: center;
+}
+
+#buttons{
+display: flex;
+}
+.btn1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 8, 8);
+    border: solid #9d9191 2px;
+    /* width: 45%;
+    text-align: center; */
+}
+h3.h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900 ;
+}
+
+input#fname {
+    width: 93%;
+    padding: 10px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.socialmedia >button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 1px;
+    font-size: 11;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+button.facebook {
+    width: 100%;
+    margin: 1px;
+    margin-bottom: 15px;
+    background: #3d5c98;
+    border-color: #3d5c98;
+}
+    
+button.google{
+width: 100%;
+border: solid 1px rgb(138, 138, 138);
+    margin: 1px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    color: rgb(138, 138, 138);
+
+}
+.or{
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+}
+#purple{
+    /* border: solid red 1px; */
+    background-color: #fff;
+    width: 50%;
+    background-color: rgb(184, 184, 247);
+    background-image: url('https://static.lystit.com/static/n/img/encouraged-search/gradient-bg-6-2.deff3c85cca058ba0fe2cc465803e1fa.jpg');
+    overflow: hidden;
+    font-size: 18px;
+    padding: 1cm ;
+    justify-content: center;
+    
+}
+
+#purple > div{
+    /* border: solid black 1px; */
+    background-color: #fff;
+    width: 317px;
+    height: 181px;
+    border-radius: 1px;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 24px 20px;
+   margin-top: 100px;
+   font-family: sans-serif;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.hello{
+    color: white;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div id="top">
+        <div class="new">
+<nav><ul>CN-US8</ul>
+<ul>Help </ul>
+<ul><a href="login.html">Sign in </a></ul></nav>
+<button><a href="signup.html">Join </a></button>
+        </div>
+        <div>
+            <div id="logo"> <a  href="index.HTML">LYST</a></div>
+<div class="bhwana"><p>MEN</p>
+<p>WOMEN</p></div>
+<div class="bhwana1"> <input type="search"> SEARCH </div>
+        </div>
+    </div>
+    <hr>
+
+<!-- form -->
+
+    <div id="main">
+
+        <div id="login">
+<div id="buttons">
+    <buttons class="btn1"><a href="signup.html" >New to Lyst?</a></buttons>
+    <buttons> <a href="login.html"class="hello">Already a member</a></buttons>
+</div>
+<h3 class="h3" >Sign in</h3>
+ 
+<div> 
+    <form action="/action_page.php">
+        <label for="fname">Email address</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your Email address">
+</div>
+<br>
+<div class="socialmedia">
+    <button>Sign in</button>
+    <p class="or">or</p>
+    <button class="facebook">Continue with Facebook</button>
+        <br>
+    <button class="google">Continue with Google</button>
+</div>
+        </div>
+
+        <div id="purple">
+        
+      <div>
+         <h3>As a Lyst member you can…</h3>
+         <p>Save your searches</p>
+         <p>Create a wishlist</p>
+         <p>Get alerts on your items</p>
+      </div>
+        </div>
+    </div>
+  
+</body>
+</html>
+
+
+
